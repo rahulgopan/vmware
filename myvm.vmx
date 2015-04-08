@@ -35,3 +35,12 @@ pciBridge6.functions = "8"
 pciBridge7.present = "TRUE"
 pciBridge7.virtualDev = "pcieRootPort"
 pciBridge7.functions = "8"
+
+ide1:0.present = "true"
+ide1:0.deviceType = "cdrom-image"
+ide1:0.filename = ""
+ide1:0.startConnected = "TRUE"
+
+RemoteDisplay.vnc.enabled = "True"
+RemoteDisplay.vnc.port = "5901"
+RemoteDisplay.vnc.password = "secure"
